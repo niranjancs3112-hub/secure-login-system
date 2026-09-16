@@ -1,16 +1,22 @@
+```html
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 <h2>Create Account</h2>
 
 <form method="POST">
-<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+    <input type="hidden"
+           name="csrf_token"
+           value="{{ csrf_token() }}">
+
     <input
         type="text"
         name="username"
@@ -40,3 +46,4 @@
 
 </body>
 </html>
+```
