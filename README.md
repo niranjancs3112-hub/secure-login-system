@@ -30,4 +30,3 @@ A secure Flask-based login system built using Python.
 
 ```bash
 pip install -r requirements.txt
-<img width="906" height="772" alt="image" src="https://github.com/user-attachments/assets/71843779-3ba9-4f17-86a4-579ca433d51a" />
